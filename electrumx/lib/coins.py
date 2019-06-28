@@ -738,9 +738,9 @@ class BitcoinNolnet(BitcoinCash):
     PEER_DEFAULT_PORTS = {'t': '52001', 's': '52002'}
 
 
-class Litecoin(Coin):
-    NAME = "Litecoin"
-    SHORTNAME = "LTC"
+class Oracol(Coin):
+    NAME = "Oracol"
+    SHORTNAME = "XOR"
     NET = "mainnet"
     XPUB_VERBYTES = bytes.fromhex("0488b21e")
     XPRV_VERBYTES = bytes.fromhex("0488ade4")
